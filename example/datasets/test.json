@@ -7,10 +7,10 @@
      
   ],
   "links": [
-    {"source": "1", "target": "2"},
-    {"source": "1", "target": "3"},
-    {"source": "1", "target": "4"},
-    {"source": "2", "target": "3"},
-    {"source": "4", "target": "3"}
+    {"source": u'2', "target": u'4'},
+    {"source": u'4', "target": u'2'},
+    {"source": u'1', "target": u'3'},
+    {"source": u'1', "target": u'4'},
+    {"source": u'1', "target": u'2'}
   ]
 }
