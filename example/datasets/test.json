@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {u'description': u'dt1', u'id': u'1', u'user': u'user1'},
+    {u'description': u'dt2', u'id': u'2', u'user': u'user2'},
+    {u'description': u'dt3', u'id': u'3', u'user': u'user3'},
+    {u'description': u'dt4', u'id': u'4', u'user': u'user4'}
+     
+  ],
+  "links": [
+    {"source": "1", "target": "2", "value": 1},
+    {"source": "1", "target": "3", "value": 2},
+    {"source": "1", "target": "4", "value": 1},
+    {"source": "2", "target": "3", "value": 2},
+    {"source": "4", "target": "3", "value": 1}
+  ]
+}

@@ -9,7 +9,7 @@
   <div id="graph"></div>
 
   <script>
-    fetch('https://nguyenkaos.github.io/force-graph/example/datasets/blocks.json').then(res => res.json()).then(data => {
+    fetch('https://nguyenkaos.github.io/force-graph/example/datasets/test.json').then(res => res.json()).then(data => {
       const elem = document.getElementById('graph');
 
       const Graph = ForceGraph()(elem)
